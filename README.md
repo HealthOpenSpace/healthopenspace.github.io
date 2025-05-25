@@ -1,9 +1,8 @@
 # OpenHealthDataSpace
 
-The European Health Data Space regulation
-Like GDPR, it has the potential to impact how the world addresses data-based digital interventions.
+The European Health Data Space regulation, like GDPR, has the potential to impact how the world addresses data-based digital interventions.
 
-This site serves as a starting point for documenting and exploring topics related to the European Health Data Space (EHDS) and related health data initiatives.  
+This site has some documention and exploration of topics related to the European Health Data Space (EHDS) and related health data initiatives.  
 
 It is structured as a personal and collaborative workspace, with content like:  
 
