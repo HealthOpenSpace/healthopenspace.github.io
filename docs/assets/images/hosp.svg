@@ -1,0 +1,25 @@
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .main { font: bold 48px sans-serif; fill: #008C9E; }
+    .sub  { font: bold 16px sans-serif; fill: #008C9E; }
+    .plus-shadow { fill: #66C2CC; opacity: 0.5; }
+    .plus-main   { fill: #008C9E; }
+  </style>
+
+  <!-- Main Text: HOSp -->
+  <text class="main" x="0" y="70">HOSp</text>
+
+  <!-- Crosses positioned tightly next to HOSp -->
+  <g transform="translate(240, 52)">
+    <!-- Shadow cross (slightly smaller, slightly offset up-right) -->
+    <rect class="plus-shadow" x="-75" y="-13" width="16" height="6"/>
+    <rect class="plus-shadow" x="-70" y="-18" width="6" height="16"/>
+
+    <!-- Main cross -->
+    <rect class="plus-main" x="-90" y="-7" width="20" height="8"/>
+    <rect class="plus-main" x="-84" y="-13" width="8" height="20"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text class="sub" x="0" y="110">Health Open Space</text>
+</svg>
