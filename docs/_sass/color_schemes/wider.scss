@@ -43,6 +43,7 @@ $search-results-width: $content-width - $nav-width !default;
   
 .site-header {
 border-bottom: 0px !important;
+min-height: 5rem;
 }
 
 
@@ -50,6 +51,8 @@ border-bottom: 0px !important;
 .site-title {
   
   line-height: 24px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
   font-size: 18px !important;    
   padding-right: 5px! important;
   padding-left: 15px! important;
@@ -61,7 +64,8 @@ border-bottom: 0px !important;
   
   padding-right: 25px! important;
   margin:5px;
-
+  margin-top: -15px !important;
+  margin-bottom: -15px !important;
 }
 
 
@@ -75,11 +79,11 @@ line-height: 20px !important;
 }
 
 .site-header .site-logo {
-  margin-right: 15px; /* Adjust this value as needed */
+  margin-left: 35px; /* Adjust this value as needed */
 }
 
 
 .site-logo {
-width: 20% !important;
+// width: 20% !important;
 }
 
