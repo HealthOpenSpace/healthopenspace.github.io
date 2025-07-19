@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg" width="200" height="70">
+  <style>
+    .main { font: bold 48px sans-serif; fill: #008C9E; }
+    .sub  { font: bold 14px sans-serif; fill: #008C9E; }
+    .plus-shadow { fill: #66C2CC; opacity: 0.5; }
+    .plus-main   { fill: #008C9E; }
+  </style>
+
+  <!-- Main Text: HOSp -->
+  <text class="main" x="-1" y="40.2">HOSp</text>
+
+  <!-- Crosses (adjusted position and scale to match original) -->
+  <g transform="translate(260.04, 33.27) scale(1.154, 1.1485)">
+    <rect class="plus-shadow" x="-75" y="-13" width="16" height="6"/>
+    <rect class="plus-shadow" x="-70" y="-18" width="6" height="16"/>
+    <rect class="plus-main" x="-90" y="-7" width="20" height="8"/>
+    <rect class="plus-main" x="-84" y="-13" width="8" height="20"/>
+  </g>
+
+  <!-- Subtitle (closer to main text) -->
+  <text class="sub" x="2.1" y="61.9">Health Open Space</text>
+</svg>

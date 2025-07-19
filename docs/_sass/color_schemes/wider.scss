@@ -87,3 +87,14 @@ line-height: 20px !important;
 // width: 20% !important;
 }
 
+
+.side-bar {
+  position: relative; // allows absolute children to position inside it
+}
+
+#menu-button {
+  position: absolute;
+  right: 0rem; // or 0 if you want it totally flush
+  top: 0rem;
+  z-index: 1000;
+}
